@@ -1,0 +1,50 @@
+html,body{
+  background: peru;
+  margin:0 auto;
+  padding: 0;
+  text-align: center;
+}
+ul{
+  width:100%;
+  margin:0 auto;
+  padding:10px;
+}
+li{
+  list-style-type: none;
+}
+
+.app{
+ background-color: darkslategrey;
+ color: orange;
+ display: flex;
+ align-items: center;
+ font-size:24px;
+ padding: 10px;
+}
+
+.app p{
+  font-size:22px;
+  text-align: left;
+}
+
+.app h6{
+  text-align: left;
+  color:lightyellow;
+}
+
+.images{
+ display: inline-block;
+}
+
+.image{
+  border: 3px solid orange;
+}
+
+input[type='button']:hover{
+  background-color:green;
+}
+
+input[type='text']{
+ margin-top:20px; 
+}
+
